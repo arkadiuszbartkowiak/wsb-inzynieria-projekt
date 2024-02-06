@@ -6,10 +6,10 @@
 <body>
     <?php
     // Dane do połączenia
-    $servername = "localhost"; 
-    $username = "admin";
-    $password = "admin";
-    $dbname = "wypozyczalnia";
+    $servername = ""; 
+    $username = "";
+    $password = "";
+    $dbname = "";
 
     // Łączenie z bazą
     $conn = new mysqli($servername, $username, $password, $dbname);
